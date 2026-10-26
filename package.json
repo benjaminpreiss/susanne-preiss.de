@@ -52,7 +52,7 @@
     "husky": "9.1.7",
     "ignore": "7.0.12",
     "lint-staged": "16.2.7",
-    "oxfmt": "0.71.0",
+    "oxfmt": "0.74.0",
     "oxlint": "1.87.0",
     "playwright": "1.63.0",
     "prettier": "3.9.10",
