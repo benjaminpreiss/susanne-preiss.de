@@ -74,7 +74,7 @@ importers:
         version: 16.2.7
       oxfmt:
         specifier: 0.74.0
-        version: 0.74.0(@astrojs/compiler-rs@0.5.1)(svelte@5.57.2)
+        version: 0.74.0(@astrojs/compiler-rs@0.5.2)(svelte@5.57.2)
       oxlint:
         specifier: 1.87.0
         version: 1.87.0
@@ -5810,11 +5810,11 @@ snapshots:
       type-check: 0.4.0
       word-wrap: 1.2.5
 
-  oxfmt@0.74.0(@astrojs/compiler-rs@0.5.1)(svelte@5.57.2):
+  oxfmt@0.74.0(@astrojs/compiler-rs@0.5.2)(svelte@5.57.2):
     dependencies:
       tinypool: 2.2.0
     optionalDependencies:
-      '@astrojs/compiler-rs': 0.5.1
+      '@astrojs/compiler-rs': 0.5.2
       '@oxfmt/binding-android-arm-eabi': 0.74.0
       '@oxfmt/binding-android-arm64': 0.74.0
       '@oxfmt/binding-darwin-arm64': 0.74.0
