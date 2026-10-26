@@ -621,6 +621,31 @@ body:has(.shared-dialog[open]) #menu-trigger {
 button {
   cursor: pointer;
 }
+:where(button, a[href], [role='button']) {
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    scale 0.2s ease-out,
+    opacity 0.2s ease-out;
+}
+:where(button, a[href], [role='button']):active {
+  transition-duration: 0s;
+}
+/* Make otherwise-inline links transformable; component layouts take precedence. */
+:where(a[href]) {
+  display: inline-block;
+}
+:where(button, a[href], [role='button']):active:not(:disabled):not([aria-disabled='true']) {
+  scale: 0.9;
+}
+@media (prefers-reduced-motion: reduce) {
+  :where(button, a[href], [role='button']) {
+    transition: none;
+  }
+  :where(button, a[href], [role='button']):active:not(:disabled):not([aria-disabled='true']) {
+    scale: none;
+    opacity: 0.7;
+  }
+}
 button:disabled {
   cursor: default;
 }
