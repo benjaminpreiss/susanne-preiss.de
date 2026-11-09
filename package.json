@@ -29,22 +29,22 @@
     "start": "pnpm preview"
   },
   "dependencies": {
-    "@astrojs/markdoc": "2.1.1",
-    "@astrojs/svelte": "9.1.1",
+    "@astrojs/markdoc": "2.1.3",
+    "@astrojs/svelte": "9.1.2",
     "@fontsource/cormorant-garamond": "5.3.0",
     "@fontsource/open-sans": "5.3.0",
     "@fontsource/roboto": "5.3.0",
     "@videojs/hlsjs-video": "10.0.1",
     "@videojs/html": "10.0.1",
-    "astro": "7.4.2",
+    "astro": "7.4.7",
     "css-tree": "3.2.1",
     "gsap": "3.15.0",
     "sharp": "0.35.5",
-    "svelte": "5.57.2"
+    "svelte": "5.57.3"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.12",
-    "@sveltejs/mcp": "0.1.27",
+    "@sveltejs/mcp": "0.1.30",
     "@types/css-tree": "3.2.0",
     "@types/node": "26.6.4",
     "@videojs/cli": "10.0.1",
@@ -56,9 +56,9 @@
     "oxlint": "1.87.0",
     "playwright": "1.63.0",
     "prettier": "3.9.10",
-    "prettier-plugin-astro": "1.1.1",
+    "prettier-plugin-astro": "1.1.2",
     "sass": "1.105.1",
-    "svelte-check": "4.7.7",
+    "svelte-check": "4.7.8",
     "tsx": "4.23.15",
     "typescript": "6.0.3",
     "wrangler": "4.147.0"
